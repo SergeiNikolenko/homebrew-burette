@@ -1,9 +1,9 @@
-# Homebrew Tap for Burrete
+# Homebrew Tap for Burette
 
 ```bash
-brew tap SergeiNikolenko/burrete
-brew install --cask burrete
+brew tap SergeiNikolenko/burette
+brew install --cask burette
 ```
 
-Burrete is a macOS menu bar app and Quick Look extension for molecular
+Burette is a macOS menu bar app and Quick Look extension for molecular
 structure previews.

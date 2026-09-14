@@ -1,14 +1,16 @@
 # frozen_string_literal: true
 
 cask "burette" do
-  version "2.3.18"
-  sha256 "2727d7da91d195973afec438217fba6b74f0c3ca41bbfd22f31e9a7db16a78e0"
+  version "2.3.21"
+  sha256 "547e3a09c7dd4aaa8073b39969a9b54e6b1c17010768f4bc624f78d61233b71f"
 
   url "https://github.com/SergeiNikolenko/Burette/releases/download/v#{version}/Burette-#{version}.zip"
   name "Burette"
   desc "Finder-native molecular structure previews"
   homepage "https://github.com/SergeiNikolenko/Burette"
 
+  auto_updates true
+  depends_on arch: :arm64
   depends_on macos: :monterey
 
   app "Burette.app"
